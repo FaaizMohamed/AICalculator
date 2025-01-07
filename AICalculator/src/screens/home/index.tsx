@@ -18,11 +18,11 @@ interface Response {
     assign: boolean;
 }
 
-declare global {
-    interface Window {
-      MathJax: any;
-    }
-  }
+// declare global {
+//     interface Window {
+//       MathJax: any;
+//     }
+//   }
   
 export default function Home() {
     const canvasRef = useRef<HTMLCanvasElement>(null);
