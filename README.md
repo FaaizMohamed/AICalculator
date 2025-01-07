@@ -8,22 +8,26 @@ To run the project locally, follow these steps:
 
 1. Clone the repository to your machine.
 
-2. Install the required libraries:
+2. Navigate to the backend directory and install the required packages:
     ```bash
+    cd AICalculatorBackend
     pip install -r requirements.txt
     ```
 3. Run the backend:
     ```bash
     python3 main.py
     ```
-4. Navigate to the frontend directory:
+4. Navigate to the frontend directory and install the required packages:
     ```bash
-    cd frontend
+    cd AICalculator
     npm install
+    ```
+5. Run the frontend:
+    ```bash
     npm run dev
     ```
 
-Access the app locally on your browser.
+You are all set! Access the app locally on your browser!
 
 
 `LOADED SCREEN`
