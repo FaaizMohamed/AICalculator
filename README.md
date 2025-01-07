@@ -3,12 +3,11 @@
 **Deployment:**
 To explore the live website, visit https://aicalculator.onrender.com
 
-```markdown
-### How to Run the Project
-
+**Local Run:**
 To run the project locally, follow these steps:
 
 1. Clone the repository to your machine.
+
 2. Install the required libraries:
     ```bash
     pip install -r requirements.txt
@@ -25,6 +24,7 @@ To run the project locally, follow these steps:
     ```
 
 Access the app locally on your browser.
+
 
 `LOADED SCREEN`
 ![Screenshot 2025-01-06 224241](https://github.com/user-attachments/assets/4b49f607-5109-4ea3-a36b-73b3529a9cbd)
