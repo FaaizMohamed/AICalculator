@@ -217,7 +217,7 @@ export default function Home() {
     <hr className="border-gray-500" />
     <div>
         <a
-            href="https://your-portfolio-link.com"
+            href="https://github.com/FaaizMohamed/AICalculator"
             target="_blank"
             rel="noreferrer"
             className="flex items-center justify-center space-x-2"
