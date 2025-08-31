@@ -11,7 +11,7 @@ export default function Splash({ onFinish }: SplashProps) {
     // Match this timeout with the animation duration
     const timer = setTimeout(() => {
       onFinish();
-    }, 2500);
+    }, 3000);
     return () => clearTimeout(timer);
   }, [onFinish]);
 
@@ -21,7 +21,7 @@ export default function Splash({ onFinish }: SplashProps) {
         className="flex items-center space-x-6" // increased spacing
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.2, ease: "easeOut" }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
       > 
         <img src={logo} alt="AI Sketch Calculator Logo" className="w-24 h-24" />
         <h1 className="text-4xl font-bold text-black">
