@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "@mantine/core/styles.css";
 import { MantineProvider } from "@mantine/core";
 import Home from "./screens/home";
+import Splash from "./screens/welcome/welcomescreen";
 import "@/index.css";
 
 const paths = [{
@@ -14,9 +16,14 @@ const paths = [{
 const BrowserRouter = createBrowserRouter(paths);
 
 const App = () => {
+  const [showSplash, setShowSplash] = useState(true);
   return (
     <MantineProvider>
-      <RouterProvider router={BrowserRouter}/>
+      {showSplash ? (
+        <Splash onFinish={() => setShowSplash(false)} />
+      ) : (
+        <RouterProvider router={BrowserRouter} />
+      )}
     </MantineProvider>
   )
 }
